@@ -62,7 +62,7 @@ export default function AskPage() {
           <input
             type="text"
             placeholder="Student Name"
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded text-blue-600"
             value={studentName}
             onChange={(e) => setStudentName(e.target.value)}
             required
@@ -71,7 +71,7 @@ export default function AskPage() {
           <input
             type="number"
             placeholder="Level"
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded text"
             value={level}
             onChange={(e) => setLevel(e.target.value)}
             required
