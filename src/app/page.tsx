@@ -11,17 +11,17 @@ export default function Dashboard() {
 
       <div className="grid grid-cols-3 gap-6">
 
-        <div className="bg-white p-6 rounded-xl shadow">
+        <div className="bg-red p-6 rounded-xl shadow">
           <h2 className="text-lg font-semibold">Total Courses</h2>
           <p className="text-2xl font-bold mt-2 text-blue-600">5</p>
         </div>
 
-        <div className="bg-white p-6 rounded-xl shadow">
+        <div className="bg-yellow p-6 rounded-xl shadow">
           <h2 className="text-lg font-semibold">Completed Lessons</h2>
           <p className="text-2xl font-bold mt-2 text-green-600">12</p>
         </div>
 
-        <div className="bg-white p-6 rounded-xl shadow">
+        <div className="bg-green p-6 rounded-xl shadow">
           <h2 className="text-lg font-semibold">AI Interactions</h2>
           <p className="text-2xl font-bold mt-2 text-purple-600">34</p>
         </div>
